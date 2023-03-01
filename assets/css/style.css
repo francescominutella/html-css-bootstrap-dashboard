@@ -2,9 +2,6 @@ body {
     background-color: darkblue;
 }
 
-/* img{
-    width: 100%;
-} */
 
 .debug [class^=col] {
     border: 1px solid white;
