@@ -16,12 +16,10 @@ body {
     width: 60px;
     height: calc(100vh - 69.9px);
     background-image: url(../img/sidebar-bg.png);
-    position: fixed;
-    left: 0;
 }
 
 .main_dashboard{
-    width: calc(100% - 60px);
+    width:100%;
     height: calc(100vh - 69.9px);
     overflow-y: auto;
 }
