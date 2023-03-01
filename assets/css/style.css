@@ -1,13 +1,18 @@
-body{
+body {
     background-color: darkblue;
 }
 
-.debug [class^=col]{
-    border: 1px solid black ;
-  }
+.debug [class^=col] {
+    border: 1px solid black;
+}
 
-   #sidebar{
+#app_header{
+    height: 80px;
+}
+
+
+#sidebar {
     width: 10%;
     height: calc(100vh - 69.6px);
     margin: 0;
-  }
+}
