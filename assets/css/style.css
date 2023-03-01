@@ -2,6 +2,14 @@ body {
     background-color: darkblue;
 }
 
+:root {
+    --color-primary: rgba(27, 114, 232, 1);
+    --color-secondary: rgba(91, 88, 88, 1);
+    --color-sidebar: rgba(5, 30, 52, 1);
+    --color-bell: rgba(255, 143, 0, 1);
+}
+
+
 
 .debug [class^=col] {
     border: 1px solid white;
@@ -11,8 +19,12 @@ body {
     height: 69.9px;
 }
 
+#app_header .fa-bell{
+    color: var(--color-bell);
+}
+
 #sidebar {
-    background-color: black;
+    background-color: var(--color-sidebar);
     width: 60px;
     height: calc(100vh - 69.9px);
     background-image: url(../img/sidebar-bg.png);
