@@ -17,6 +17,6 @@ body {
     background-image: url(../img/sidebar-bg.png);
 }
 
-#plus_new{
-    
+.main_top{
+    width: calc(100vw - 60px );
 }
