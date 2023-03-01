@@ -3,7 +3,7 @@ body {
 }
 
 .debug [class^=col] {
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
 #app_header{
@@ -12,7 +12,9 @@ body {
 
 
 #sidebar {
+    background-color: black;
     width: 60px;
     height: calc(100vh - 69.9px);
     margin: 0;
+    background-image: url(../img/sidebar-bg.png);
 }
