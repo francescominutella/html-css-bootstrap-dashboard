@@ -3,11 +3,11 @@ body{
 }
 
 .debug [class^=col]{
-    border: 1px solid white ;
+    border: 1px solid black ;
   }
 
-   #nav_left{
-    width: 50%;
-    height: 100vh;
-
+   #sidebar{
+    width: 10%;
+    height: calc(100vh - 69.6px);
+    margin: 0;
   }
