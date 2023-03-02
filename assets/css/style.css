@@ -16,7 +16,10 @@ body {
 }
 
 #app_header {
-    height: 69.9px;
+    height: 66px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
 }
 
 #app_header .fa-bell{
@@ -26,12 +29,12 @@ body {
 #sidebar {
     background-color: var(--color-sidebar);
     width: 60px;
-    height: calc(100vh - 69.9px);
+    height: calc(100vh - 66px);
     background-image: url(../img/sidebar-bg.png);
 }
 
 .main_dashboard{
     width:100%;
-    height: calc(100vh - 69.9px);
+    height: calc(100vh - 66px);
     overflow-y: auto;
 }
