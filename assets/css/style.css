@@ -39,3 +39,13 @@ body {
     overflow-y: auto;
 }
 
+@media screen and (min-width: 768px) {
+    #sidebar {
+        width: 200px;
+    }
+    .main_dashboard {
+        width: calc(100% - 200px);
+    }
+
+
+}
