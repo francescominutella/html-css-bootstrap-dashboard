@@ -47,5 +47,10 @@ body {
         width: calc(100% - 200px);
     }
 
+}
 
+@media screen and (min-width: 1400px) {
+    .canvas {
+        min-width: 50% !important;
+    }
 }
