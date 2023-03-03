@@ -22,6 +22,10 @@ body {
     background-color: white;
 }
 
+#searchbar{
+    background-color: #e9ecef;
+}
+
 #app_header .fa-bell{
     color: var(--color-bell);
 }
